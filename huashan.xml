@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Remotes -->
+  <remote name="AdrianDC" fetch="https://github.com" revision="refs/heads/lineage-15.1" />
+
+  <!-- LineageOS Dependency Projects -->
+  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" revision="lineage-15.1" remote="github" />
+  <project name="LineageOS/android_device_sony_common" path="device/sony/common" revision="lineage-15.1" remote="github"/>
+  <project name="LineageOS/android_hardware_sony_DASH" path="hardware/sony/DASH" revision="lineage-15.1" remote="github"/>
+  <project name="LineageOS/android_hardware_sony_thermanager" path="hardware/sony/thermanager" revision="lineage-15.1" remote="github"/>
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" revision="lineage-15.1" remote="github"/>
+
+  <!-- SONY Vendor Projects -->
+  <project name="AdrianDC/proprietary_vendor_sony" path="vendor/sony" remote="AdrianDC" />
+
+  <!-- SONY 8960 Huashan Projects -->
+  <project name="AdrianDC/android_device_sony_huashan" path="device/sony/huashan" remote="AdrianDC" />
+  <project name="AdrianDC/android_kernel_sony_msm8960t" path="kernel/sony/msm8960t" remote="AdrianDC" />
+
+</manifest>
