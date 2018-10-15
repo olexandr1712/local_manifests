@@ -15,7 +15,7 @@
   <project name="AdrianDC/proprietary_vendor_sony" path="vendor/sony" remote="AdrianDC" />
 
   <!-- SONY 8960 Huashan Projects -->
-  <project name="olexandr1712/android_device_sony_huashan" path="device/sony/huashan" revision="o8.1" remote="github" />
+  <project name="olexandr1712/android_device_sony_huashan" path="device/sony/huashan" revision="oreo" remote="github" />
   <project name="AdrianDC/android_kernel_sony_msm8960t" path="kernel/sony/msm8960t" remote="AdrianDC" />
 
 </manifest>
